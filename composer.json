@@ -1,5 +1,5 @@
 {
-    "name": "gregwar/captcha-bundle",
+    "name": "motivateco/captcha-bundle",
     "type": "captcha-bundle",
     "description": "Captcha bundle",
     "keywords": ["symfony2", "captcha", "bot", "visual", "code", "security", "spam"],
@@ -18,14 +18,14 @@
     ],
     "require": {
         "php": ">=5.3.9",
-        "gregwar/captcha": "~1.1",
+        "motivateco/captcha": "~1.1",
         "symfony/framework-bundle": "~2.8|~3.0|~4.0",
         "symfony/form": "~2.8|~3.0|~4.0",
         "twig/twig": "^1.40|^2.9"
     },
     "autoload": {
         "psr-4": {
-            "Gregwar\\CaptchaBundle\\": "/"
+            "motivateco\\CaptchaBundle\\": "/"
         }
     }
 }
