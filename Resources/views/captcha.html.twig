@@ -8,7 +8,7 @@
     <script type="text/javascript">
         function reload_{{ image_id }}() {
             var img = document.getElementById('{{ image_id }}');
-            img.src = '{{ captcha_code }}?n=' + (new Date()).getTime();
+            img.src = '{{ captcha_code }}&ref=' + (new Date()).getTime();
         }
     </script>
     <a class="captcha_reload" href="javascript:reload_{{ image_id }}();">{{ 'Renew'|trans({}, 'gregwar_captcha') }}</a>
